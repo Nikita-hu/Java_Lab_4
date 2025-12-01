@@ -307,10 +307,10 @@ public class Main {
                     public boolean test(int[] array) {
                         for (int num : array) {
                             if (num > 0) {
-                                return false; // нашли положительный - массив не подходит
+                                return false;
                             }
                         }
-                        return true; // положительных не найдено
+                        return true; 
                     }
                 });
                 
